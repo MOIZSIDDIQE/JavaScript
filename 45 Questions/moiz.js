@@ -1,7 +1,7 @@
 //TASK 1:COMPLETED
 //TASK 2:
 var Name = "Mubeen Chohan,";
-console.log("hello", Name, "".concat("Do you know.you should learn any Computer course."));
+console.log("hello", Name, "\"Do you know.you should learn any Computer course.\"");
 //TASK 3:
 var personName = "Moiz siddiq";
 console.log("lowercase:", personName.toLowerCase());
@@ -69,10 +69,13 @@ console.log(_Guest);
 var guest2 = "Hamza";
 _Guest.unshift(guest2);
 console.log(_Guest);
+//PART 3:
 var MiddleGuest = "Mubeen";
 var MiddleIndex = MiddleGuest.length / 3;
 _Guest.splice(MiddleIndex, 0, MiddleGuest);
 console.log(_Guest);
+//PART 4:
 _Guest.push("Ali");
 console.log(_Guest);
+//PART 5:
 _Guest.map(function (items) { return console.log("Dear ".concat(items, ", you are invited on my birthday.")); });

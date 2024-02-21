@@ -90,6 +90,7 @@ let guest2="Hamza";
 _Guest.unshift(guest2)
 console.log(_Guest);
 
+//PART 3:
 let MiddleGuest="Mubeen";
 let MiddleIndex=MiddleGuest.length/3;
 _Guest.splice( MiddleIndex ,0 ,MiddleGuest);
@@ -97,11 +98,11 @@ console.log(_Guest);
 
 
 
-
+//PART 4:
 _Guest.push("Ali")
 console.log(_Guest);
 
-
+//PART 5:
 _Guest.map ((items) => console.log(`Dear ${items}, you are invited on my birthday.`));
 
 
