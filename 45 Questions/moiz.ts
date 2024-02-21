@@ -1,7 +1,7 @@
 //TASK 1:COMPLETED
 //TASK 2:
-let  Name= "Mubeen Chohan,";
-console.log("hello" , Name ,`"Do you know.you should learn any Computer course."`);
+let  Name= "Mubeen Chohan";
+console.log("hello" , Name+"," ,`"Do you know.you should learn any Computer course."`);
 
 //TASK 3:
 let personName="Moiz siddiq";

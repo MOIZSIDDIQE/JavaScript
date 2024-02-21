@@ -1,7 +1,7 @@
 //TASK 1:COMPLETED
 //TASK 2:
-var Name = "Mubeen Chohan,";
-console.log("hello", Name, "\"Do you know.you should learn any Computer course.\"");
+var Name = "Mubeen Chohan";
+console.log("hello", Name + ",", "\"Do you know.you should learn any Computer course.\"");
 //TASK 3:
 var personName = "Moiz siddiq";
 console.log("lowercase:", personName.toLowerCase());
