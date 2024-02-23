@@ -49,9 +49,9 @@ console.log(names[2])
 //TASK 12:
 let Names =["Arif","Asif","Kashif"]
 let Message="have you completed your work."
-console.log(names[0] + " "+ Message)
-console.log(names[1] + " "+ Message)
-console.log(names[2] + " "+ Message)
+console.log(names[0] , ",", Message)
+console.log(names[1] , "," ,Message)
+console.log(names[2] , ",", Message)
 
 //TASK 13:
 
