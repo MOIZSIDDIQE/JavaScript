@@ -1,96 +1,110 @@
 "use strict";
-// //TASK 1:COMPLETED
-// //TASK 2:
-// let  Name= "Mubeen Chohan";
-// console.log("hello" , Name+"," ,`"Do you know.you should learn any Computer course."`);
-// //TASK 3:
-// let personName="Moiz siddiq";
-// console.log( "lowercase:", personName.toLowerCase ());
-// console.log("uppercase:", personName.toUpperCase());
-// console.log("titlecase", personName.replace(/\b\w/g, c=> c.toUpperCase()));
-// //TASK 4:
-// let famous_person:string = "Quaid-e-Azam";
-// let Quote:string="Think 100 times before you take a decision, but once that decision is taken, stand by it as one man";
-// console.log(`${famous_person} once said, "${Quote}"`);
-// //TASK 5 :
-// let Author = "Allama Iqbal";
-// let quote=" Do not beg for light from the moon, obtain it from the spark within you.";
-// let message= `${Author} once said , "${quote}"`;
-// console.log(message);
-// //TASK 6:
-// let person="\t\n moiz \t\n"
-// console.log("original:" , person );
-// console.log("stripped:" , person.trim());
-// //TASK 7 and 8 :
-// console.log(5+3)
-// console.log(12-4)
-// console.log(4*2)
-// console.log(16/2)
-// //TASK 9 and 10:
-// //Author : [ Moiz siddiq ]
-// //Date : [Sunday , february 18 , 2024]
-// //printing my favourite number.
-// let favouriteNumber=7;
-// //Revealing my favourite number in this message.
-// console.log(`This is my favourite number "${favouriteNumber}"`)
-// //TASK 11:
-// let names =["Arif","Asif","Kashif"]
-// console.log(names[0])
-// console.log(names[1])
-// console.log(names[2])
-// //TASK 12:
-// let Names =["Arif","Asif","Kashif"]
-// let Message="have you completed your work."
-// console.log(names[0] + " "+ Message)
-// console.log(names[1] + " "+ Message)
-// console.log(names[2] + " "+ Message)
-// //TASK 13:
-// let transport=["Audi","Ferrari", "Bugatti"];
-// transport.map((items) => console.log(`I have a ${items}`));
-// //TASK 14:
-// let guest = ["Raza", "Mohsin", "Sufyan"]
-// guest.map((items) => console.log(`Dear ${items}, you are invited in school program.`));
-// //TASK 15:
-// let Guest=["Raza", "Mohsin", "Sufyan"];
-// let absent="Sufyan";
-// // console.log(absent + " "+  "can not attend the school program.")
-// let newGuest="Hussain";
-// Guest [Guest.indexOf(absent)]=newGuest;
-// // console.log(Guest);
-// Guest.map((items) => console.log(`Dear ${items}, you are invited in school program.`));
-// //TASK 16:PART 1:
-// console.log( "                                                            TASK 16                                                  "                                                      );
-// let _Guest=["Muneeb","Haider","Moiz","Wajid"];
-// let Absent="Moiz"
-// let New_guest="Muheeb";
-// _Guest[_Guest.indexOf(Absent)]=New_guest;
-// console.log(_Guest);
-// // _Guest.map((items) => console.log(`Dear ${_Guest},I have arranged a big dinner table.`))
-// //PART 2:
-// let guest2="Hamza";
-// _Guest.unshift(guest2)
-// console.log(_Guest);
-// //PART 3:
-// let MiddleGuest="Mubeen";
-// let MiddleIndex=MiddleGuest.length/3;
-// _Guest.splice( MiddleIndex ,0 ,MiddleGuest);
-// console.log(_Guest);
-// //PART 4:
-// _Guest.push("Ali")
-// console.log(_Guest);
-// //PART 5:
-// _Guest.map ((items) => console.log(`Dear ${items}, you are invited on my birthday.`));
+//TASK 1:COMPLETED
+//TASK 2:
+let Name = "Mubeen Chohan";
+console.log("hello", Name + ",", `"Do you know.you should learn any Computer course."`);
+//TASK 3:
+let personName = "Moiz siddiq";
+console.log("lowercase:", personName.toLowerCase());
+console.log("uppercase:", personName.toUpperCase());
+console.log("titlecase", personName.replace(/\b\w/g, c => c.toUpperCase()));
+//TASK 4:
+let famous_person = "Quaid-e-Azam";
+let Quote = "Think 100 times before you take a decision, but once that decision is taken, stand by it as one man";
+console.log(`${famous_person} once said, "${Quote}"`);
+//TASK 5 :
+let Author = "Allama Iqbal";
+let quote = " Do not beg for light from the moon, obtain it from the spark within you.";
+let message = `${Author} once said , "${quote}"`;
+console.log(message);
+//TASK 6:
+let person = "\t\n moiz \t\n";
+console.log("original:", person);
+console.log("stripped:", person.trim());
+//TASK 7 and 8 :
+console.log(5 + 3);
+console.log(12 - 4);
+console.log(4 * 2);
+console.log(16 / 2);
+//TASK 9 and 10:
+//Author : [ Moiz siddiq ]
+//Date : [Sunday , february 18 , 2024]
+//printing my favourite number.
+let favouriteNumber = 7;
+//Revealing my favourite number in this message.
+console.log(`This is my favourite number "${favouriteNumber}"`);
+//TASK 11:
+let names = ["Arif", "Asif", "Kashif"];
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
+//TASK 12:
+let Names = ["Arif", "Asif", "Kashif"];
+let Message = "have you completed your work.";
+console.log(names[0] + " " + Message);
+console.log(names[1] + " " + Message);
+console.log(names[2] + " " + Message);
+//TASK 13:
+let transport = ["Audi", "Ferrari", "Bugatti"];
+transport.map((items) => console.log(`I have a ${items}`));
+//TASK 14:
+let guest = ["Raza", "Mohsin", "Sufyan"];
+guest.map((items) => console.log(`Dear ${items}, you are invited in school program.`));
+//TASK 15:
+let Guest = ["Raza", "Mohsin", "Sufyan"];
+let absent = "Sufyan";
+// console.log(absent + " "+  "can not attend the school program.")
+let newGuest = "Hussain";
+Guest[Guest.indexOf(absent)] = newGuest;
+// console.log(Guest);
+Guest.map((items) => console.log(`Dear ${items}, you are invited in school program.`));
+//TASK 16:PART 1:
+console.log("                                                            TASK 16                                                  ");
+let _Guest = ["Muneeb", "Haider", "Moiz", "Wajid"];
+let Absent = "Moiz";
+let New_guest = "Muheeb";
+_Guest[_Guest.indexOf(Absent)] = New_guest;
+console.log(_Guest);
+// _Guest.map((items) => console.log(`Dear ${_Guest},I have arranged a big dinner table.`))
+//PART 2:
+let guest2 = "Hamza";
+_Guest.unshift(guest2);
+console.log(_Guest);
+//PART 3:
+let MiddleGuest = "Mubeen";
+let MiddleIndex = MiddleGuest.length / 3;
+_Guest.splice(MiddleIndex, 0, MiddleGuest);
+console.log(_Guest);
+//PART 4:
+_Guest.push("Ali");
+console.log(_Guest);
+//PART 5:
+_Guest.map((items) => console.log(`Dear ${items}, you are invited on my birthday.`));
 //TASK 17:
-let G_list1 = ["Muneeb", "Haider", "Moiz", "Wajid"];
-console.log(`sorry guests i cant arrange big tabe , thats why only two people invited for the dinner. `);
+let G_list1 = ["Muneeb", "Haider", "Moiz", "Wajid", "Sameer"];
+console.log(`sorry guests i cant arrange big tabe , thats why only two people invited for the dinner.\n `);
 while (G_list1.length > 2) {
     const removeGuest = G_list1.pop();
-    console.log(`Sorry ${removeGuest}, now you are not invited for the dinner.\n`);
+    console.log(`Sorry ${removeGuest}, now you are not invited for the dinner.`);
 }
-// let New_G=["Muneeb", "Haider"] //OR; 
-// G_list1.pop();
-// G_list1.pop();
 G_list1.forEach((guest) => {
     console.log(`Dear ${guest}, you are invited to the dinner.`);
 });
-// console.log(``);
+console.log(`Final guest List ${G_list1}`);
+//                                                 TASK 18:
+let countries = ["Tokyo", "Pakistan", "America", "China", "Japan"];
+console.log("Original order:", countries);
+console.log("Alphabetical order:", [...countries].sort());
+console.log("Original order after sorting:", countries);
+console.log("Reverse Alphabetical order:", [...countries].sort().reverse());
+console.log("Original order after reverse sorting", countries);
+countries.reverse();
+console.log("Reverse order :", countries);
+countries.sort();
+console.log("sorted in alphabetical order:", countries);
+countries.sort((a, b) => b.localeCompare(a));
+console.log("sorted in reverse alphabetical order:", countries);
+//                                               TASK 19:
+let G_list2 = ["Muneeb", "Haider"];
+let count_G_list2 = G_list2.length;
+console.log(`${count_G_list2} people invited for the dinner.`);
