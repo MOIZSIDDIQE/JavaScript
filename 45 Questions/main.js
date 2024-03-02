@@ -1,4 +1,3 @@
-"use strict";
 // //TASK 1:COMPLETED
 // //TASK 2:
 // let  Name= "Mubeen Chohan";
@@ -119,25 +118,130 @@
 // const Days: string[] = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 // // console.log(Days{6});  //Error
 // console.log(Days[5]);
-//                                                    TASK 23:
-let bike = "honda";
-console.log("is bike ==`honda`? predict true.");
-console.log(bike == `honda`);
-console.log("is bike !=`super star`? predict true.");
-console.log(bike != `super star`);
-console.log("is bike == `honda` && bike.length = 5? predict false");
-console.log(bike == `honda` && bike.length == 5);
-console.log("is bike.length ==5? predict true.");
-console.log(bike.length == 5);
-console.log("is bike.length != 9 ? predict true");
-console.log(bike.length != 9);
-console.log("is 4>5 ? predict false");
-console.log(4 > 5);
-console.log("is 6 < 2? predict false");
-console.log(6 < 2);
-console.log("is 56<= 55? predict false");
-console.log(56 <= 55);
-console.log("is 27 >= 30 ? predict false");
-console.log(27 >= 30);
-console.log("is 67 != 67? predict false");
-console.log(67 != 67);
+// //                                                    TASK 23:
+// let bike = "honda";
+// console.log("is bike ==`honda`? predict true.");
+// console.log(bike == `honda`);
+// console.log("is bike !=`super star`? predict true.");
+// console.log(bike != `super star`);
+// console.log("is bike == `honda` && bike.length = 5? predict false");
+// console.log(bike ==`honda` && bike.length == 5);
+// console.log("is bike.length ==5? predict true.");
+// console.log(bike.length == 5);
+// console.log("is bike.length != 9 ? predict true");
+// console.log(bike.length != 9);
+// console.log("is 4>5 ? predict false");
+// console.log(4>5);
+// console.log("is 6 < 2? predict false");
+// console.log(6 < 2);
+// console.log("is 56<= 55? predict false");
+// console.log(56<= 55);
+// console.log("is 27 >= 30 ? predict false");
+// console.log(27>= 30);
+// console.log("is 67 != 67? predict false");
+// console.log(67 != 67);
+// //                                                        TASK 24:
+// let Name_1="Moiz"
+// let Name_2="Moiz siddiq"
+// let Name_3="Moiz muhammad siddiq"
+// if (Name_1 == Name_2) {
+//     console.log("names are equal");   
+// }else{
+//     console.log("names are not equal");
+// }
+// if (Name_1 != Name_2){
+//     console.log("names are equal ");}
+// if(Name_2 ==Name_3){
+//     console.log("names are equal")
+// } 
+// let age_1: number = 18;
+// let age_2: number = 25;
+// if(age_1 == 18){
+//     console.log("can give vote");
+// }
+// if(age_1 != 24){
+//     console.log("can get job");
+// }
+//  if (age_1 != age_2){
+//     console.log("this is equal ");
+//  }else{
+//     console.log("this is not equal ")
+//  }
+// if (age_2 >= age_1) {
+//     console.log("younger");
+// }
+// if (age_1 <= age_2) {
+//     console.log("older");
+// }
+// if (age_1 == 18 && age_2 == 25) {
+//     console.log("peson is eligible for vote");
+// }
+// if(age_1 == 18 || age_2 != 25){
+//     console.log("person is not eligible for vote");
+// }
+// let country:string []=["Pakistan","Afghanistan", "Indonesia","Palestine"]
+// if(country.includes("Indonesia")){
+//     console.log("Indonesia is a good country");
+// }
+// if(!country.includes("India")){
+//     console.log("India is not include in array");
+// }
+// //                                                   TASK 25:
+// let alien="green";
+// if(alien=="green")
+// console.log("you earn 5 points");
+// if(alien=="yellow")
+// console.log("no output");
+// //                                                   TASK 26:
+// let alien_color = "green";
+// if (alien_color == "green") {
+//     console.log("player just  earned 5 points for shooting the alien");
+// }else{
+//     console.log("player just earned 10 point");
+// }
+// if (alien_color == "white") {
+//     console.log("player just  earned 5 points for shooting the alien");
+// }else{
+//     console.log("player just earned 10 point");
+// }
+// //                                                      TASK 27:
+// let alien_1_C = "red";
+// if (alien_1_C == "brown") {
+//     console.log("5 points")
+// } else if (alien_1_C == "pink") {
+//     console.log("10 points");
+// }else {
+//     console.log("15 points");
+// }
+// //                                                        TASK 28:
+// let age = 100;
+// if(age<2){
+//     console.log("you are a baby")
+// }else if(age<4){
+//     console.log("you are a toddler");
+// }else if(age<13){
+//     console.log("you are a kid");
+// }else if(age<20){
+//     console.log("you are a teenager")
+// }else if(age<65){
+//     console.log("ou are a adult");
+// }else{
+//     console.log("you are older");
+// }
+//                                                 TASK 29:
+var favourite_fruit = ["orange", "strawberry", "banana"];
+if (favourite_fruit.includes("orange")) {
+    console.log("are you like orange");
+}
+if (favourite_fruit.includes("strawberry")) {
+    console.log("are you like strawberry");
+}
+if (favourite_fruit.includes("apple")) {
+    console.log("are you like apple");
+}
+if (favourite_fruit.includes("banana")) {
+    console.log("are you like banana");
+}
+if (favourite_fruit.includes("berry")) {
+    console.log("are you like berry");
+}
