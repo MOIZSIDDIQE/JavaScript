@@ -1,61 +1,61 @@
 //TASK 1:COMPLETED
 //TASK 2:
-let  Name= "Mubeen Chohan";
-console.log("hello" , Name+"," ,`"Do you know.you should learn any Computer course."`);
+let Name = "Mubeen Chohan";
+console.log("hello", Name + ",", `"Do you know.you should learn any Computer course."`);
 
 //TASK 3:
-let personName="Moiz siddiq";
-console.log( "lowercase:", personName.toLowerCase ());
+let personName = "Moiz siddiq";
+console.log("lowercase:", personName.toLowerCase());
 console.log("uppercase:", personName.toUpperCase());
-console.log("titlecase", personName.replace(/\b\w/g, c=> c.toUpperCase()));
+console.log("titlecase", personName.replace(/\b\w/g, c => c.toUpperCase()));
 
 //TASK 4:
-let famous_person:string = "Quaid-e-Azam";
-let Quote:string="Think 100 times before you take a decision, but once that decision is taken, stand by it as one man";
+let famous_person: string = "Quaid-e-Azam";
+let Quote: string = "Think 100 times before you take a decision, but once that decision is taken, stand by it as one man";
 console.log(`${famous_person} once said, "${Quote}"`);
 
 //TASK 5 :
 let Author = "Allama Iqbal";
-let quote=" Do not beg for light from the moon, obtain it from the spark within you.";
-let message= `${Author} once said , "${quote}"`;
+let quote = " Do not beg for light from the moon, obtain it from the spark within you.";
+let message = `${Author} once said , "${quote}"`;
 console.log(message);
 
 //TASK 6:
-let person="\t\n moiz \t\n"
-console.log("original:" , person );
-console.log("stripped:" , person.trim());
+let person = "\t\n moiz \t\n"
+console.log("original:", person);
+console.log("stripped:", person.trim());
 
 
 //TASK 7 and 8 :
-console.log(5+3)
-console.log(12-4)
-console.log(4*2)
-console.log(16/2)
+console.log(5 + 3)
+console.log(12 - 4)
+console.log(4 * 2)
+console.log(16 / 2)
 
 //TASK 9 and 10:
 //Author : [ Moiz siddiq ]
 //Date : [Sunday , february 18 , 2024]
 //printing my favourite number.
-let favouriteNumber=7;
+let favouriteNumber = 7;
 //Revealing my favourite number in this message.
 console.log(`This is my favourite number "${favouriteNumber}"`)
 
 //TASK 11:
-let names =["Arif","Asif","Kashif"]
+let names = ["Arif", "Asif", "Kashif"]
 console.log(names[0])
 console.log(names[1])
 console.log(names[2])
 
 //TASK 12:
-let Names =["Arif","Asif","Kashif"]
-let Message="have you completed your work."
-console.log(names[0] + " "+ Message)
-console.log(names[1] + " "+ Message)
-console.log(names[2] + " "+ Message)
+let Names = ["Arif", "Asif", "Kashif"]
+let Message = "have you completed your work."
+console.log(names[0] + " " + Message)
+console.log(names[1] + " " + Message)
+console.log(names[2] + " " + Message)
 
 //TASK 13:
 
-let transport=["Audi","Ferrari", "Bugatti"];
+let transport = ["Audi", "Ferrari", "Bugatti"];
 transport.map((items) => console.log(`I have a ${items}`));
 
 //TASK 14:
@@ -63,37 +63,37 @@ let guest = ["Raza", "Mohsin", "Sufyan"]
 guest.map((items) => console.log(`Dear ${items}, you are invited in school program.`));
 
 //TASK 15:
-let Guest=["Raza", "Mohsin", "Sufyan"];
-let absent="Sufyan";
+let Guest = ["Raza", "Mohsin", "Sufyan"];
+let absent = "Sufyan";
 
 // console.log(absent + " "+  "can not attend the school program.")
 
-let newGuest="Hussain";
-Guest [Guest.indexOf(absent)]=newGuest;
+let newGuest = "Hussain";
+Guest[Guest.indexOf(absent)] = newGuest;
 
 // console.log(Guest);
 
 Guest.map((items) => console.log(`Dear ${items}, you are invited in school program.`));
 
 //TASK 16:PART 1:
-console.log( "                                                            TASK 16                                                  "                                                      );
+console.log("                                                            TASK 16                                                  ");
 
-let _Guest=["Muneeb","Haider","Moiz","Wajid"];
-let Absent="Moiz"
-let New_guest="Muheeb";
-_Guest[_Guest.indexOf(Absent)]=New_guest;
+let _Guest = ["Muneeb", "Haider", "Moiz", "Wajid"];
+let Absent = "Moiz"
+let New_guest = "Muheeb";
+_Guest[_Guest.indexOf(Absent)] = New_guest;
 console.log(_Guest);
 // _Guest.map((items) => console.log(`Dear ${_Guest},I have arranged a big dinner table.`))
 
 //PART 2:
-let guest2="Hamza";
+let guest2 = "Hamza";
 _Guest.unshift(guest2)
 console.log(_Guest);
 
 //PART 3:
-let MiddleGuest="Mubeen";
-let MiddleIndex=MiddleGuest.length/3;
-_Guest.splice( MiddleIndex ,0 ,MiddleGuest);
+let MiddleGuest = "Mubeen";
+let MiddleIndex = MiddleGuest.length / 3;
+_Guest.splice(MiddleIndex, 0, MiddleGuest);
 console.log(_Guest);
 
 
@@ -103,11 +103,11 @@ _Guest.push("Ali")
 console.log(_Guest);
 
 //PART 5:
-_Guest.map ((items) => console.log(`Dear ${items}, you are invited on my birthday.`));
+_Guest.map((items) => console.log(`Dear ${items}, you are invited on my birthday.`));
 
 
 //ASK 17:
-let G_list1 = ["Muneeb", "Haider", "Moiz", "Wajid","Sameer"];
+let G_list1 = ["Muneeb", "Haider", "Moiz", "Wajid", "Sameer"];
 console.log(`sorry guests i cant arrange big tabe , thats why only two people invited for the dinner.\n `);
 
 while (G_list1.length > 2) {
@@ -122,35 +122,35 @@ console.log(`Final guest List ${G_list1}`);
 
 
 //                                                 TASK 18:
-let countries=["Tokyo","Pakistan","America","China","Japan"]
+let countries = ["Tokyo", "Pakistan", "America", "China", "Japan"]
 
 console.log("Original order:", countries);
 
 console.log("Alphabetical order:", [...countries].sort());
 
-console.log("Original order after sorting:",countries);
+console.log("Original order after sorting:", countries);
 
-console.log("Reverse Alphabetical order:",[...countries].sort().reverse());
+console.log("Reverse Alphabetical order:", [...countries].sort().reverse());
 
-console.log("Original order after reverse sorting",countries);
+console.log("Original order after reverse sorting", countries);
 
 countries.reverse();
 console.log("Reverse order :", countries);
 
 countries.sort();
-console.log("sorted in alphabetical order:",countries);
+console.log("sorted in alphabetical order:", countries);
 
-countries.sort((a,b) => b.localeCompare(a));
-console.log("sorted in reverse alphabetical order:",countries);
+countries.sort((a, b) => b.localeCompare(a));
+console.log("sorted in reverse alphabetical order:", countries);
 
 //                                                TASK 19:
 
-let G_list2:string[]=["Muneeb","Haider"]
-let count_G_list2:number=G_list2.length;
+let G_list2: string[] = ["Muneeb", "Haider"]
+let count_G_list2: number = G_list2.length;
 console.log(`${count_G_list2} people invited for the dinner.`);
 
 //                                                  TASK 20:
-let Cities:string[]=["Karachi","Islamabad","Peshawar","Quetta"];
+let Cities: string[] = ["Karachi", "Islamabad", "Peshawar", "Quetta"];
 console.log("List of cities:");
 console.log(Cities);
 
@@ -172,7 +172,7 @@ console.log("is bike !=`super star`? predict true.");
 console.log(bike != `super star`);
 
 console.log("is bike == `honda` && bike.length = 5? predict false");
-console.log(bike ==`honda` && bike.length == 5);
+console.log(bike == `honda` && bike.length == 5);
 
 
 console.log("is bike.length ==5? predict true.");
@@ -182,53 +182,54 @@ console.log("is bike.length != 9 ? predict true");
 console.log(bike.length != 9);
 
 console.log("is 4>5 ? predict false");
-console.log(4>5);
+console.log(4 > 5);
 
 console.log("is 6 < 2? predict false");
 console.log(6 < 2);
 
 console.log("is 56<= 55? predict false");
-console.log(56<= 55);
+console.log(56 <= 55);
 
 console.log("is 27 >= 30 ? predict false");
-console.log(27>= 30);
+console.log(27 >= 30);
 
 console.log("is 67 != 67? predict false");
 console.log(67 != 67);
 
 //                                                        TASK 24:
-let Name_1="Moiz"
-let Name_2="Moiz siddiq"
-let Name_3="Moiz muhammad siddiq"
+let Name_1 = "Moiz"
+let Name_2 = "Moiz siddiq"
+let Name_3 = "Moiz muhammad siddiq"
 
 if (Name_1 == Name_2) {
-    console.log("names are equal");   
-}else{
+    console.log("names are equal");
+} else {
     console.log("names are not equal");
 }
 
-if (Name_1 != Name_2){
-    console.log("names are equal ");}
+if (Name_1 != Name_2) {
+    console.log("names are equal ");
+}
 
-if(Name_2 ==Name_3){
+if (Name_2 == Name_3) {
     console.log("names are equal")
-} 
+}
 
 let age_1: number = 18;
 let age_2: number = 25;
 
-if(age_1 == 18){
+if (age_1 == 18) {
     console.log("can give vote");
 }
 
-if(age_1 != 24){
+if (age_1 != 24) {
     console.log("can get job");
 }
- if (age_1 != age_2){
+if (age_1 != age_2) {
     console.log("this is equal ");
- }else{
+} else {
     console.log("this is not equal ")
- }
+}
 
 if (age_2 >= age_1) {
     console.log("younger");
@@ -240,29 +241,29 @@ if (age_1 <= age_2) {
 if (age_1 == 18 && age_2 == 25) {
     console.log("peson is eligible for vote");
 }
-if(age_1 == 18 || age_2 != 25){
+if (age_1 == 18 || age_2 != 25) {
     console.log("person is not eligible for vote");
 
 }
-let country:string []=["Pakistan","Afghanistan", "Indonesia","Palestine"]
+let country: string[] = ["Pakistan", "Afghanistan", "Indonesia", "Palestine"]
 
-if(country.includes("Indonesia")){
+if (country.includes("Indonesia")) {
     console.log("Indonesia is a good country");
 }
-if(!country.includes("India")){
+if (!country.includes("India")) {
     console.log("India is not include in array");
 
 }
 
 
 //                                                   TASK 25:
-let alien="green";
+let alien = "green";
 
-if(alien=="green")
-console.log("you earn 5 points");
+if (alien == "green")
+    console.log("you earn 5 points");
 
-if(alien=="yellow")
-console.log("no output");
+if (alien == "yellow")
+    console.log("no output");
 
 //                                                   TASK 26:
 
@@ -270,13 +271,13 @@ let alien_color = "green";
 
 if (alien_color == "green") {
     console.log("player just  earned 5 points for shooting the alien");
-}else{
+} else {
     console.log("player just earned 10 point");
 }
 
 if (alien_color == "white") {
     console.log("player just  earned 5 points for shooting the alien");
-}else{
+} else {
     console.log("player just earned 10 point");
 }
 
@@ -287,7 +288,7 @@ if (alien_1_C == "brown") {
     console.log("5 points")
 } else if (alien_1_C == "pink") {
     console.log("10 points");
-}else {
+} else {
     console.log("15 points");
 
 }
@@ -295,17 +296,17 @@ if (alien_1_C == "brown") {
 //                                                        TASK 28:
 let age = 100;
 
-if(age<2){
+if (age < 2) {
     console.log("you are a baby")
-}else if(age<4){
+} else if (age < 4) {
     console.log("you are a toddler");
-}else if(age<13){
+} else if (age < 13) {
     console.log("you are a kid");
-}else if(age<20){
+} else if (age < 20) {
     console.log("you are a teenager")
-}else if(age<65){
+} else if (age < 65) {
     console.log("ou are a adult");
-}else{
+} else {
     console.log("you are older");
 }
 
@@ -329,7 +330,16 @@ if (favourite_fruit.includes("berry")) {
 }
 
 //                                                   TASK 30:
+let users: string[] = ["farooq", "shahzain", "anus", "hassan", "noman"]
 
+for (let user of users) {
+    if (user === "farooq") {
+        console.log(`hello farooq, Thanks to visit our website`);
+    }else{
+        console.log(`hello ${user}, will you complete your work.`);
+    }
+
+}
 
 
 
