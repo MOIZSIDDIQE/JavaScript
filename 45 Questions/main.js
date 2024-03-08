@@ -1,24 +1,43 @@
-"use strict";
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function (t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 //TASK 1:COMPLETED
 //TASK 2:
-let Name = "Mubeen Chohan";
-console.log("hello", Name + ",", `"Do you know.you should learn any Computer course."`);
+var Name = "Mubeen Chohan";
+console.log("hello", Name + ",", "\"Do you know.you should learn any Computer course.\"");
 //TASK 3:
-let personName = "Moiz siddiq";
+var personName = "Moiz siddiq";
 console.log("lowercase:", personName.toLowerCase());
 console.log("uppercase:", personName.toUpperCase());
-console.log("titlecase", personName.replace(/\b\w/g, c => c.toUpperCase()));
+console.log("titlecase", personName.replace(/\b\w/g, function (c) { return c.toUpperCase(); }));
 //TASK 4:
-let famous_person = "Quaid-e-Azam";
-let Quote = "Think 100 times before you take a decision, but once that decision is taken, stand by it as one man";
-console.log(`${famous_person} once said, "${Quote}"`);
+var famous_person = "Quaid-e-Azam";
+var Quote = "Think 100 times before you take a decision, but once that decision is taken, stand by it as one man";
+console.log("".concat(famous_person, " once said, \"").concat(Quote, "\""));
 //TASK 5 :
-let Author = "Allama Iqbal";
-let quote = " Do not beg for light from the moon, obtain it from the spark within you.";
-let message = `${Author} once said , "${quote}"`;
+var Author = "Allama Iqbal";
+var quote = " Do not beg for light from the moon, obtain it from the spark within you.";
+var message = "".concat(Author, " once said , \"").concat(quote, "\"");
 console.log(message);
 //TASK 6:
-let person = "\t\n moiz \t\n";
+var person = "\t\n moiz \t\n";
 console.log("original:", person);
 console.log("stripped:", person.trim());
 //TASK 7 and 8 :
@@ -30,103 +49,103 @@ console.log(16 / 2);
 //Author : [ Moiz siddiq ]
 //Date : [Sunday , february 18 , 2024]
 //printing my favourite number.
-let favouriteNumber = 7;
+var favouriteNumber = 7;
 //Revealing my favourite number in this message.
-console.log(`This is my favourite number "${favouriteNumber}"`);
+console.log("This is my favourite number \"".concat(favouriteNumber, "\""));
 //TASK 11:
-let names = ["Arif", "Asif", "Kashif"];
+var names = ["Arif", "Asif", "Kashif"];
 console.log(names[0]);
 console.log(names[1]);
 console.log(names[2]);
 //TASK 12:
-let Names = ["Arif", "Asif", "Kashif"];
-let Message = "have you completed your work.";
+var Names = ["Arif", "Asif", "Kashif"];
+var Message = "have you completed your work.";
 console.log(names[0] + " " + Message);
 console.log(names[1] + " " + Message);
 console.log(names[2] + " " + Message);
 //TASK 13:
-let transport = ["Audi", "Ferrari", "Bugatti"];
-transport.map((items) => console.log(`I have a ${items}`));
+var transport = ["Audi", "Ferrari", "Bugatti"];
+transport.map(function (items) { return console.log("I have a ".concat(items)); });
 //TASK 14:
-let guest = ["Raza", "Mohsin", "Sufyan"];
-guest.map((items) => console.log(`Dear ${items}, you are invited in school program.`));
+var guest = ["Raza", "Mohsin", "Sufyan"];
+guest.map(function (items) { return console.log("Dear ".concat(items, ", you are invited in school program.")); });
 //TASK 15:
-let Guest = ["Raza", "Mohsin", "Sufyan"];
-let absent = "Sufyan";
+var Guest = ["Raza", "Mohsin", "Sufyan"];
+var absent = "Sufyan";
 // console.log(absent + " "+  "can not attend the school program.")
-let newGuest = "Hussain";
+var newGuest = "Hussain";
 Guest[Guest.indexOf(absent)] = newGuest;
 // console.log(Guest);
-Guest.map((items) => console.log(`Dear ${items}, you are invited in school program.`));
+Guest.map(function (items) { return console.log("Dear ".concat(items, ", you are invited in school program.")); });
 //TASK 16:PART 1:
 console.log("                                                            TASK 16                                                  ");
-let _Guest = ["Muneeb", "Haider", "Moiz", "Wajid"];
-let Absent = "Moiz";
-let New_guest = "Muheeb";
+var _Guest = ["Muneeb", "Haider", "Moiz", "Wajid"];
+var Absent = "Moiz";
+var New_guest = "Muheeb";
 _Guest[_Guest.indexOf(Absent)] = New_guest;
 console.log(_Guest);
 // _Guest.map((items) => console.log(`Dear ${_Guest},I have arranged a big dinner table.`))
 //PART 2:
-let guest2 = "Hamza";
+var guest2 = "Hamza";
 _Guest.unshift(guest2);
 console.log(_Guest);
 //PART 3:
-let MiddleGuest = "Mubeen";
-let MiddleIndex = MiddleGuest.length / 3;
+var MiddleGuest = "Mubeen";
+var MiddleIndex = MiddleGuest.length / 3;
 _Guest.splice(MiddleIndex, 0, MiddleGuest);
 console.log(_Guest);
 //PART 4:
 _Guest.push("Ali");
 console.log(_Guest);
 //PART 5:
-_Guest.map((items) => console.log(`Dear ${items}, you are invited on my birthday.`));
+_Guest.map(function (items) { return console.log("Dear ".concat(items, ", you are invited on my birthday.")); });
 //ASK 17:
-let G_list1 = ["Muneeb", "Haider", "Moiz", "Wajid", "Sameer"];
-console.log(`sorry guests i cant arrange big tabe , thats why only two people invited for the dinner.\n `);
+var G_list1 = ["Muneeb", "Haider", "Moiz", "Wajid", "Sameer"];
+console.log("sorry guests i cant arrange big tabe , thats why only two people invited for the dinner.\n ");
 while (G_list1.length > 2) {
-    const removeGuest = G_list1.pop();
-    console.log(`Sorry ${removeGuest}, now you are not invited for the dinner.`);
+    var removeGuest = G_list1.pop();
+    console.log("Sorry ".concat(removeGuest, ", now you are not invited for the dinner."));
 }
-G_list1.forEach((guest) => {
-    console.log(`Dear ${guest}, you are invited to the dinner.`);
+G_list1.forEach(function (guest) {
+    console.log("Dear ".concat(guest, ", you are invited to the dinner."));
 });
-console.log(`Final guest List ${G_list1}`);
+console.log("Final guest List ".concat(G_list1));
 //                                                 TASK 18:
-let countries = ["Tokyo", "Pakistan", "America", "China", "Japan"];
+var countries = ["Tokyo", "Pakistan", "America", "China", "Japan"];
 console.log("Original order:", countries);
-console.log("Alphabetical order:", [...countries].sort());
+console.log("Alphabetical order:", __spreadArray([], countries, true).sort());
 console.log("Original order after sorting:", countries);
-console.log("Reverse Alphabetical order:", [...countries].sort().reverse());
+console.log("Reverse Alphabetical order:", __spreadArray([], countries, true).sort().reverse());
 console.log("Original order after reverse sorting", countries);
 countries.reverse();
 console.log("Reverse order :", countries);
 countries.sort();
 console.log("sorted in alphabetical order:", countries);
-countries.sort((a, b) => b.localeCompare(a));
+countries.sort(function (a, b) { return b.localeCompare(a); });
 console.log("sorted in reverse alphabetical order:", countries);
 //                                                TASK 19:
-let G_list2 = ["Muneeb", "Haider"];
-let count_G_list2 = G_list2.length;
-console.log(`${count_G_list2} people invited for the dinner.`);
+var G_list2 = ["Muneeb", "Haider"];
+var count_G_list2 = G_list2.length;
+console.log("".concat(count_G_list2, " people invited for the dinner."));
 //                                                  TASK 20:
-let Cities = ["Karachi", "Islamabad", "Peshawar", "Quetta"];
+var Cities = ["Karachi", "Islamabad", "Peshawar", "Quetta"];
 console.log("List of cities:");
 console.log(Cities);
 //                                                  TASK 21:
-let Person = { name: "Moiz", Fname: "Siddiq", Age: 17 };
+var Person = { name: "Moiz", Fname: "Siddiq", Age: 17 };
 console.log(Person);
 //                                                    TASK 22:
-const Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 // console.log(Days{6});  //Error
 console.log(Days[5]);
 //                                                    TASK 23:
-let bike = "honda";
+var bike = "honda";
 console.log("is bike ==`honda`? predict true.");
-console.log(bike == `honda`);
+console.log(bike == "honda");
 console.log("is bike !=`super star`? predict true.");
-console.log(bike != `super star`);
+console.log(bike != "super star");
 console.log("is bike == `honda` && bike.length = 5? predict false");
-console.log(bike == `honda` && bike.length == 5);
+console.log(bike == "honda" && bike.length == 5);
 console.log("is bike.length ==5? predict true.");
 console.log(bike.length == 5);
 console.log("is bike.length != 9 ? predict true");
@@ -142,9 +161,9 @@ console.log(27 >= 30);
 console.log("is 67 != 67? predict false");
 console.log(67 != 67);
 //                                                        TASK 24:
-let Name_1 = "Moiz";
-let Name_2 = "Moiz siddiq";
-let Name_3 = "Moiz muhammad siddiq";
+var Name_1 = "Moiz";
+var Name_2 = "Moiz siddiq";
+var Name_3 = "Moiz muhammad siddiq";
 if (Name_1 == Name_2) {
     console.log("names are equal");
 }
@@ -157,8 +176,8 @@ if (Name_1 != Name_2) {
 if (Name_2 == Name_3) {
     console.log("names are equal");
 }
-let age_1 = 18;
-let age_2 = 25;
+var age_1 = 18;
+var age_2 = 25;
 if (age_1 == 18) {
     console.log("can give vote");
 }
@@ -183,7 +202,7 @@ if (age_1 == 18 && age_2 == 25) {
 if (age_1 == 18 || age_2 != 25) {
     console.log("person is not eligible for vote");
 }
-let country = ["Pakistan", "Afghanistan", "Indonesia", "Palestine"];
+var country = ["Pakistan", "Afghanistan", "Indonesia", "Palestine"];
 if (country.includes("Indonesia")) {
     console.log("Indonesia is a good country");
 }
@@ -191,13 +210,13 @@ if (!country.includes("India")) {
     console.log("India is not include in array");
 }
 //                                                   TASK 25:
-let alien = "green";
+var alien = "green";
 if (alien == "green")
     console.log("you earn 5 points");
 if (alien == "yellow")
     console.log("no output");
 //                                                   TASK 26:
-let alien_color = "green";
+var alien_color = "green";
 if (alien_color == "green") {
     console.log("player just  earned 5 points for shooting the alien");
 }
@@ -211,7 +230,7 @@ else {
     console.log("player just earned 10 point");
 }
 //                                                      TASK 27:
-let alien_1_C = "red";
+var alien_1_C = "red";
 if (alien_1_C == "brown") {
     console.log("5 points");
 }
@@ -222,7 +241,7 @@ else {
     console.log("15 points");
 }
 //                                                        TASK 28:
-let age = 100;
+var age = 100;
 if (age < 2) {
     console.log("you are a baby");
 }
@@ -242,7 +261,7 @@ else {
     console.log("you are older");
 }
 //                                                 TASK 29:
-let favourite_fruit = ["orange", "strawberry", "banana"];
+var favourite_fruit = ["orange", "strawberry", "banana"];
 if (favourite_fruit.includes("orange")) {
     console.log("are you like orange");
 }
@@ -259,117 +278,128 @@ if (favourite_fruit.includes("berry")) {
     console.log("are you like berry");
 }
 //                                                   TASK 30:
-let users = ["farooq", "shahzain", "anus", "hassan", "noman"];
-for (let user of users) {
+var users = ["farooq", "shahzain", "anus", "hassan", "noman"];
+for (var _i = 0, users_1 = users; _i < users_1.length; _i++) {
+    var user = users_1[_i];
     if (user === "farooq") {
-        console.log(`hello farooq, Thanks to visit our website`);
+        console.log("hello farooq, Thanks to visit our website");
     }
     else {
-        console.log(`hello ${user}, will you complete your work.`);
+        console.log("hello ".concat(user, ", will you complete your work."));
     }
 }
 //                                                    TASK 31:
-let Users = ["farooq", "shahzain", "anus", "hassan", "noman"];
+var Users = ["farooq", "shahzain", "anus", "hassan", "noman"];
 if (Users.length === 5) {
     console.log("we need to find some users ");
 }
 else {
-    for (let User of Users) {
+    for (var _a = 0, Users_1 = Users; _a < Users_1.length; _a++) {
+        var User = Users_1[_a];
         if (User === "farooq") {
             console.log("hello farooq ,thanks to visit our website. ");
         }
         else {
-            console.log(`hello ${User}, will you complete your work.`);
+            console.log("hello ".concat(User, ", will you complete your work."));
         }
     }
 }
 //                                                   TASK 32:
-let current_users = ["Farooq", "shahzain", "Anus", "hassan", "Noman"];
-let new_users = ["Farooq", "Shahzain", "Muneeb", "Kamran", "Salman"];
-let current_users_lower = current_users.map(user => user.toLowerCase());
-for (let new_user of new_users) {
+var current_users = ["Farooq", "shahzain", "Anus", "hassan", "Noman"];
+var new_users = ["Farooq", "Shahzain", "Muneeb", "Kamran", "Salman"];
+var current_users_lower = current_users.map(function (user) { return user.toLowerCase(); });
+for (var _b = 0, new_users_1 = new_users; _b < new_users_1.length; _b++) {
+    var new_user = new_users_1[_b];
     if (current_users_lower.includes(new_user.toLowerCase())) {
-        console.log(`sorry ${new_user}, this name is not available`);
+        console.log("sorry ".concat(new_user, ", this name is not available"));
     }
     else {
-        console.log(`yes ${new_user}, this name is available`);
+        console.log("yes ".concat(new_user, ", this name is available"));
     }
 }
 //                                                        TASK 33:
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-for (let number of numbers) {
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (var _c = 0, numbers_1 = numbers; _c < numbers_1.length; _c++) {
+    var number = numbers_1[_c];
     if (number === 1) {
-        console.log(`${number}st`);
+        console.log("".concat(number, "st"));
     }
     else if (number === 2) {
-        console.log(`${number}nd`);
+        console.log("".concat(number, "nd"));
     }
     else if (number === 3) {
-        console.log(`${number}rd`);
+        console.log("".concat(number, "rd"));
     }
     else {
-        console.log(`${number}th`);
+        console.log("".concat(number, "th"));
     }
 }
 //                                                       TASK:34
-let F_pizza = ["Chicken", "Mailai", "Tandori"];
-for (let pizza of F_pizza) {
+var F_pizza = ["Chicken", "Mailai", "Tandori"];
+for (var _d = 0, F_pizza_1 = F_pizza; _d < F_pizza_1.length; _d++) {
+    var pizza = F_pizza_1[_d];
     console.log(pizza);
 }
-for (let pizza of F_pizza) {
-    console.log(`Do you like to eat ${pizza}pizza ?`);
+for (var _e = 0, F_pizza_2 = F_pizza; _e < F_pizza_2.length; _e++) {
+    var pizza = F_pizza_2[_e];
+    console.log("Do you like to eat ".concat(pizza, "pizza ?"));
 }
 console.log("I love every kind of pizza.");
 //                                                     TASK :35
-let animals = ["lion", "tiger", "panther"];
-for (let animal of animals) {
+var animals = ["lion", "tiger", "panther"];
+for (var _f = 0, animals_1 = animals; _f < animals_1.length; _f++) {
+    var animal = animals_1[_f];
     console.log(animal);
 }
 console.log(" \n ");
-for (let animal of animals) {
-    console.log(`A ${animal} eat meat.`);
+for (var _g = 0, animals_2 = animals; _g < animals_2.length; _g++) {
+    var animal = animals_2[_g];
+    console.log("A ".concat(animal, " eat meat."));
 }
 console.log("\n These all are brave animals but the lion is the bravest animal in these");
 //                                                   TASK :36
 function Myshirt(size, text) {
-    console.log(`Do you have a ${size}sized shirt with ${text} printed on it ?`);
+    console.log("Do you have a ".concat(size, "sized shirt with ").concat(text, " printed on it ?"));
 }
-Myshirt(`small`, `"Hello"`);
-Myshirt(`medium`, `"what's up"`);
-Myshirt(`large`, `"Nike"`);
+Myshirt("small", "\"Hello\"");
+Myshirt("medium", "\"what's up\"");
+Myshirt("large", "\"Nike\"");
 //                                                      TASK :37
-function MyShirt(size = 'small', text = 'Avengers') {
-    console.log(`If you buy ${size} shirt with ${text} printed on it, I will you one more free shirt.`);
+function MyShirt(size, text) {
+    if (size === void 0) { size = 'small'; }
+    if (text === void 0) { text = 'Avengers'; }
+    console.log("If you buy ".concat(size, " shirt with ").concat(text, " printed on it, I will you one more free shirt."));
 }
 MyShirt();
 MyShirt('medium');
 MyShirt('large', 'window');
 //                                             TASK :38
-function describe_city(city, country = 'Pakistan') {
-    console.log(`${city} is the city of ${country}`);
+function describe_city(city, country) {
+    if (country === void 0) { country = 'Pakistan'; }
+    console.log("".concat(city, " is the city of ").concat(country));
 }
 describe_city('Karachi');
 describe_city('Dehli', 'India');
 describe_city('Quetta');
 //                                                TASK :39
 function call_city(city, country) {
-    return `"${city}","${country}"`;
+    return "\"".concat(city, "\",\"").concat(country, "\"");
 }
-let C1 = call_city('Peshawar', 'Pakistan');
-let C2 = call_city('Istanbul', 'Turkey');
-let C3 = call_city('New york', 'Anerica');
+var C1 = call_city('Peshawar', 'Pakistan');
+var C2 = call_city('Istanbul', 'Turkey');
+var C3 = call_city('New york', 'Anerica');
 console.log(C1);
 console.log(C2);
 // console.log(C3);
 //                                                   TASK :40
 function My_Album(artist, title) {
-    const dictionary = {
+    var dictionary = {
         artist: artist.charAt(0).toUpperCase() + artist.slice(1),
         title: title.charAt(0).toUpperCase() + title.slice(1)
     };
     return dictionary;
 }
-let Album = My_Album("Raza", "Wedding");
+var Album = My_Album("Raza", "Wedding");
 console.log(Album);
 Album = My_Album("Sammad", "Sky");
 console.log(Album);
@@ -377,38 +407,43 @@ Album = My_Album("Hasnain", "Rain");
 console.log(Album);
 TASK: 41;
 function Best_Magicians(magicians) {
-    for (const magician of magicians) {
-        console.log(magician.charAt(0).replace(/\b\w/g, c => c.toUpperCase()) + magician.slice(1));
+    for (var _i = 0, magicians_1 = magicians; _i < magicians_1.length; _i++) {
+        var magician = magicians_1[_i];
+        console.log(magician.charAt(0).replace(/\b\w/g, function (c) { return c.toUpperCase(); }) + magician.slice(1));
     }
 }
-// const magician:string [] = ["fazal","David Copperfield","Roger Lapin."];
-// Best_Magicians(magician);
+const magician = ["fazal", "David Copperfield", "Roger Lapin."];
+Best_Magicians(magician);
 //                                               TASK :42
 function Make_great(magicians) {
-    for (let M = 0; M < magicians.length; M++) {
+    for (var M = 0; M < magicians.length; M++) {
         magicians[M] = magicians[M] + ' is the great magician.';
     }
 }
-const magician2 = ["fazal", "David Copperfield", "Roger Lapin"];
+var magician2 = ["fazal", "David Copperfield", "Roger Lapin"];
 Make_great(magician2);
 Best_Magicians(magician2);
 //                                             TASK:43
 function Make_great2(magicians) {
-    const G_magician = [];
-    for (let m = 0; m < magicians.length; m++) {
+    var G_magician = [];
+    for (var m = 0; m < magicians.length; m++) {
         G_magician.push(magicians[m] + ' is the professional magician.');
     }
     return G_magician;
 }
-const magician3 = ["fazal", "David Copperfield", "Roger Lapin", "moiz"];
-const G_magician2 = Make_great2(magician3);
+var magician3 = ["fazal", "David Copperfield", "Roger Lapin", "moiz"];
+var G_magician2 = Make_great2(magician3);
 Best_Magicians(magician3);
 Best_Magicians(G_magician2);
 //                                                 TASK :44
-function sandwich(...items) {
+function sandwich() {
+    var items = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        items[_i] = arguments[_i];
+    }
     console.log("Sandwich order:");
-    for (let s = 0; s < items.length; s++) {
-        console.log(`- ${items[s]}`);
+    for (var s = 0; s < items.length; s++) {
+        console.log("- ".concat(items[s]));
     }
 }
 console.log("Which sandwich do you want to eat .");
@@ -416,8 +451,7 @@ sandwich('chicken', 'cheese');
 sandwich('mashroom', 'potato', 'olives');
 sandwich('garlic sauce', 'onion', 'fries', 'capsicum');
 function My_car(manufacture, model, optional) {
-    return Object.assign({ manufacture,
-        model }, optional);
+    return __assign({ manufacture: manufacture, model: model }, optional);
 }
-let P_car = My_car("Volkswagen Group ", "Audi A3", { color: "Black", year: "2020" });
+var P_car = My_car("Volkswagen Group ", "Audi A3", { color: "Black", year: "2020" });
 console.log(P_car);
