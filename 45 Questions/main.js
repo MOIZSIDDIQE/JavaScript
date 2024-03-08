@@ -455,3 +455,5 @@ function My_car(manufacture, model, optional) {
 }
 var P_car = My_car("Volkswagen Group ", "Audi A3", { color: "Black", year: "2020" });
 console.log(P_car);
+                               
+//                                  Assignment completed
