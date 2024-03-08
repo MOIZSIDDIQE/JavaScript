@@ -518,15 +518,17 @@ type Cars ={
        model:string  
        [key :string ]:any
 }
-function My_car (manufacture:string , model:string , optional:Record<string,any>): Cars {
+function My_Car (manufacture:string , model:string , optional:Record<string,any>): Cars {
        return{
        manufacture,
        model,
        ...optional
        }
 }
-let P_car: Cars = My_car("Volkswagen Group ","Audi A3",{color:"Black",year:"2020"}) 
+let P_car: Cars = My_Car("Volkswagen Group ","Audi A3",{color:"Black",year:"2020"}) 
 console.log(P_car);
+
+
 
 
 

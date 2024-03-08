@@ -450,8 +450,8 @@ console.log("Which sandwich do you want to eat .");
 sandwich('chicken', 'cheese');
 sandwich('mashroom', 'potato', 'olives');
 sandwich('garlic sauce', 'onion', 'fries', 'capsicum');
-function My_car(manufacture, model, optional) {
+function My_Car(manufacture, model, optional) {
     return __assign({ manufacture: manufacture, model: model }, optional);
 }
-var P_car = My_car("Volkswagen Group ", "Audi A3", { color: "Black", year: "2020" });
+var P_car = My_Car("Volkswagen Group ", "Audi A3", { color: "Black", year: "2020" });
 console.log(P_car);
