@@ -1,5 +1,5 @@
 var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function (t) {
+    __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
             for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
@@ -412,8 +412,8 @@ function Best_Magicians(magicians) {
         console.log(magician.charAt(0).replace(/\b\w/g, function (c) { return c.toUpperCase(); }) + magician.slice(1));
     }
 }
-const magician = ["fazal", "David Copperfield", "Roger Lapin."];
-Best_Magicians(magician);
+// const magician:string [] = ["fazal","David Copperfield","Roger Lapin."];
+// Best_Magicians(magician);
 //                                               TASK :42
 function Make_great(magicians) {
     for (var M = 0; M < magicians.length; M++) {
@@ -455,5 +455,3 @@ function My_car(manufacture, model, optional) {
 }
 var P_car = My_car("Volkswagen Group ", "Audi A3", { color: "Black", year: "2020" });
 console.log(P_car);
-                               
-//                                  Assignment completed
