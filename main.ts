@@ -528,7 +528,7 @@ function My_Car (manufacture:string , model:string , optional:Record<string,any>
 let P_car: Cars = My_Car("Volkswagen Group ","Audi A3",{color:"Black",year:"2020"}) 
 console.log(P_car);
 
-
+//                                    Assignment Completed
 
 
 
